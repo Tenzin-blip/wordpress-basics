@@ -30,14 +30,20 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit(props) {
-	const starting_year = props.attributes.startingYear;
+export default function Edit({ attributes, setAttributes }) {
+	const {startingYear} = attributes;
 	const current_year = new Date().getFullYear().toString()
 	return (
 		<>
 			<InspectorControls>
 				<PanelBody title={__('Settings', 'copyright-date-block')}>
-					Settings
+					<TextControl
+						label={__('Starting Year', 'copyright-date-block')}
+						value={startingYear}
+						onChange={ ( newStartingYear ) => {
+							setAttributes({startingYear: newStartingYear});
+            } }
+					/>
 				</PanelBody>
 			</InspectorControls>
 			<p {...useBlockProps()}>
@@ -45,7 +51,7 @@ export default function Edit(props) {
 					'Copyright',
 					'copyright-date-block'
 				)}
-				&copy; {starting_year} - {current_year}
+				&copy; {startingYear} - {current_year}
 			</p>
 
 		</>
