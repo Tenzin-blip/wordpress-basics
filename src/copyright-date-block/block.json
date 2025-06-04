@@ -20,5 +20,6 @@
         "type": "string",
         "default": "2000"
     }
-	}
+	},
+	"render": "file:./render.php"
 }
