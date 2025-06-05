@@ -5,6 +5,7 @@
 !.gitignore
 !mu-plugins/
 !mu-plugins/*
+!plugins/
 !plugins/bookstore/
 !plugins/copyright-date-block/
 !plugins/example-plugin/
