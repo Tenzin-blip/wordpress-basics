@@ -67,5 +67,9 @@ function bookstore_enqueue_scripts() {
         'bookstore-style',
         plugins_url() . '/bookstore/bookstore.css'
     );
+    wp_enqueue_script(
+        'bookstore-script',
+        plugins_url() . '/bookstore/bookstore.js'
+    );
 }
 ?>
