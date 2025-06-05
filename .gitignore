@@ -7,6 +7,9 @@
 !mu-plugins/*
 !plugins/
 !plugins/bookstore/
+!plugins/bookstore/**
 !plugins/copyright-date-block/
+!plugins/copyright-date-block/** 
 !plugins/example-plugin/
+!plugins/example-plugin/** 
 !plugins/index.php
