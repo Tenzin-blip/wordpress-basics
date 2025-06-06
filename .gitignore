@@ -16,3 +16,5 @@
 !themes/
 !themes/twentytwentyfour
 !themes/twentytwentyfour/** 
+!themes/internationalization/
+!themes/internationalization/** 
