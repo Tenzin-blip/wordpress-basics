@@ -13,3 +13,6 @@
 !plugins/example-plugin/
 !plugins/example-plugin/** 
 !plugins/index.php
+!themes/
+!themes/twentytwentyfour
+!themes/twentytwentyfour/** 
