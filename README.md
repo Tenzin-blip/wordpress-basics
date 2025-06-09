@@ -21,4 +21,3 @@ Welcome to my WordPress dev repo! Just me messing around with custom themes, plu
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/wordpress-projects.git
-  ```
