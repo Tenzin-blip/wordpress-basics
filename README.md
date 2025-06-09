@@ -14,10 +14,26 @@ Welcome to my WordPress dev repo! Just me messing around with custom themes, plu
 - WordPress (duh)
 - HTML/CSS/JS
 - A sprinkle of jQuery
-- Maybe some ACF (Advanced Custom Fields) depending on the project
 
 ## 🛠️ How to Use
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/wordpress-projects.git
+   ```
+2. Drop the theme folders into `wp-content/themes/`  
+3. Drop the plugins into `wp-content/plugins/`  
+4. Activate from the WordPress dashboard  
+5. Profit 🚀
+
+## 📸 Screenshots & Demos
+
+Coming soon... or maybe not lol.
+
+## ✍️ Author
+
+Made with ☕ by [Tenzin Dolker Sherpa]
+
+---
+
+> Still a work in progress. Feel free to roast it 👀
